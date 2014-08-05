@@ -1,0 +1,45 @@
+<html>
+<!------------------------------head--------------------------------------------------------->
+<head>
+	<title>ARAMARK : Rose-Hulman</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css"/>
+	<link rel = "icon" type = "image/jpg" href = "../Images/turtletemp.png"/>
+</head>
+<!----------------------------Body---------------------------------------------------------->
+<body>
+<!---------------------------wrapper----------------------------------->
+<div id = "wrapper">
+<!---------------------------Top Bar Stuff (Should be on every Page)-------------------------------->
+	<div id = "logo">
+		<a href = "araindex.html">
+		<center>ARAMARK at Rose-Hulman</center>
+		</a>
+	</div>
+	
+	<div id = "navbar">
+		<center><ul id = "items">
+			<li><a href = "weeklyfood.html" class = "navlink">Weekly Food</a></li>
+			<li><a href = "writerecipe.html" class = "navlink">Write A Recipe</a></li>
+			<li><a href = "readrecipe.html" class = "navlink">Read Recipes</a></li>
+			<li><a href = "login.html" class = "navlink">Log In</a></li>
+		</ul></center>
+	</div>
+<!--------------------------------Unique Content--------------------------------->
+<h2>Live	Feed</h2>	
+	
+<?php	
+//	Select	the	30	most	recent	posts	from	our	friendly	posts	view	
+echo "hello"
+$posts	=	mysqli_query($conn,	"SELECT	name,	description	".	
+								"FROM	recipe	"	.	
+						"ORDER	BY	created_at	DESC	"	.	
+						"LIMIT	30") or die (mysqli_error($conn));
+	
+//	Display	each	post	
+while	($row	=	mysqli_fetch_array($posts))	{	
+				echo	'<p><strong>'	.	$row[0]	.	'</strong>:	'	.	$row[1]	.	'</p>';	
+}	
+?>
+</div>
+</body>
+</html>

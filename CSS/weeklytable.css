@@ -1,0 +1,31 @@
+table
+{
+					font-family: Poor Richard;
+
+border-collapse:collapse;
+position:relative;
+table-layout:auto;
+}
+#hideMe
+{
+	border:2px solid black;
+	background-color:#FFFFFF;
+}
+#theader
+{
+padding:5px;
+border:2px solid black;
+border-collapse:collapse;
+font-family:"Times New Roman";
+
+font-size:16px;
+background-color: #CC0000;
+}
+#data
+{
+border:1px solid black;
+background-color: #FF1100;
+font-family:"Times New Roman";
+border-collapse:collapse;
+font-size: 12px;
+}

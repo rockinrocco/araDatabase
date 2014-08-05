@@ -1,0 +1,170 @@
+﻿#wrapper{
+				width:960px;
+				margin:0 auto;
+				position:relative;
+}
+a:link{
+					font-family: Poor Richard;
+
+				text-decoration:none;
+				color:#000033;
+}
+
+a:visited{
+				color:#000033;
+}
+#technicals ul{
+				list-style:none;
+}
+#technicals li{
+				display:inline;
+				padding-right:25px;
+}
+#topline{
+				position:relative;
+				margin-left:500px;
+}
+#logo{
+position:relative;
+margin-top:25px;
+font-size:xx-large;
+}
+#navbar a:hover{
+				font-size:larger;
+}
+#navbar li{
+				display:inline;
+				padding-right:70px;
+				padding-left:5px;
+				font-size:x-large;
+}
+
+#navbar{
+				margin-left:0px;
+				margin-right:40px;
+				position:relative;
+				margin-top:20px;
+				border-top:medium black solid;
+				border-bottom:medium black solid;
+}
+
+#currentMeal{
+				position:relative;
+				margin-top:30px;
+				padding-left: 10px;
+				margin-right: 550px;
+				border: medium black solid;
+
+}
+#nextMeal{
+				position:relative;
+				margin-top:30px;
+				padding-left: 10px;
+				margin-right: 550px;
+				border: medium black solid;
+
+}
+#join{
+				position:relative;
+				font-size:x-large;
+				margin-left:570px;
+				margin-right:40px;
+				padding-right:20px;
+				padding-bottom:50px;
+				padding-left:20px;
+				margin-top:-100px;
+				border: medium black solid;
+}
+#media li{
+				list-style:none;
+				display:inline;
+				padding-left:15px;
+}
+#media{
+				position:relative;
+				font-size:x-large;
+				margin-top:30px;
+				margin-right:40px;
+				margin-left:570px;
+				padding-bottom:10px;
+				border: medium black solid;
+}
+#caseAd{
+				border: medium black solid;
+				position:relative;
+				margin-right:425px;
+				margin-top:-100px;
+				padding-top:18px;
+				padding-bottom:16px;
+				
+}	
+#newrecipe{
+					font-family: Poor Richard;
+
+				border: medium black solid;
+				position:relative;
+				margin-right:300px;
+				margin-top:300px;
+				margin-left:300px;
+}
+#signup{
+					font-family: Poor Richard;
+
+				border: medium black solid;
+				position:relative;
+				margin-left:500px;
+				margin-right:10px;
+				padding-left:20px;
+}
+#loginform{
+					font-family: Poor Richard;
+
+				position:relative;
+				margin-top:50px;
+				border: medium black solid;
+				margin-right:600px;
+				margin-left:70px;
+				padding-left:10px;
+				padding-bottom:10px;
+}
+#logout{
+					font-family: Poor Richard;
+
+				position:relative;
+				
+}
+
+#loginform{
+					font-family: Poor Richard;
+
+				position:relative;
+				margin-left:0px;
+				padding-right:40px;
+}
+
+#signup{
+					font-family: Poor Richard;
+
+				position:relative;
+				margin-top:-285px;
+				padding-left:30px;
+				padding-bottom:15px;
+				margin-right:35px;
+				
+}
+
+#logout{
+					font-family: Poor Richard;
+
+				background-color: maroon;
+				font-size:40px;
+				border: medium black solid;
+				position:relative;
+				margin-top:30px;
+				margin-right:35px;
+				
+}
+#logout a:hover{
+	text-color:white;
+	
+}

@@ -1,0 +1,127 @@
+﻿#wrapper{
+				width:960px;
+				margin:0 auto;
+				position:relative;
+}
+a:link{
+				text-decoration:none;
+				color:#000033;
+}
+
+a:visited{
+				color:#000033;
+}
+#technicals ul{
+				list-style:none;
+}
+#technicals li{
+				display:inline;
+				padding-right:25px;
+}
+#topline{
+				position:relative;
+				margin-left:500px;
+}
+#logo{
+				position:relative;
+				margin-top:25px;
+				font-size: 50px;
+				font-family: Poor Richard;
+				background-color: maroon;
+								
+}
+#navbar a:hover{
+				font-size:larger;
+				
+}
+#navbar li{
+				display:inline;
+				padding-right:70px;
+				padding-left:5px;
+				font-size:x-large;
+				font-family: Poor Richard;
+}
+
+#navbar{
+				margin-left:0px;
+				margin-right:40px;
+				position:relative;
+				margin-top:20px;
+				border-top:medium black solid;
+				border-bottom:medium black solid;
+}
+
+#currentMeal{
+				font-family: Poor Richard;
+				color: white;
+				background-color:maroon;
+				text-align: center;
+				position: relative;
+				margin-top:30px;
+				padding-left: 10px;
+				margin-right: 550px;
+				border: medium black solid;
+
+}
+#nextMeal{
+				font-family: Poor Richard;
+				text-align: center;
+				color: white;
+				background-color:maroon;
+				position:relative;
+				margin-top:30px;
+				padding-left: 10px;
+				padding-right: 10px;
+				margin-right: 550px;
+				border: medium black solid;
+
+}
+#join{
+				position:relative;
+				font-size:x-large;
+				color: white;
+				background-color:maroon;
+				font-family: Poor Richard;
+				margin-left:570px;
+				margin-right:40px;
+				padding-top: 10px;
+				padding-right:20px;
+				padding-bottom:50px;
+				padding-left:20px;
+				margin-top:-210px;
+				border: medium black solid;
+}
+#media li{
+				list-style:none;
+				display:inline;
+				padding-left:15px;
+}
+#media{
+				position:relative;
+				font-family: Poor Richard;
+				color: maroon;
+				font-size:x-large;
+				margin-top:30px;
+				margin-right:40px;
+				margin-left:570px;
+				padding-bottom:10px;
+
+}
+#caseAd{
+				border: medium black solid;
+				font-family: Poor Richard;
+				position:relative;
+				margin-right:425px;
+				margin-top:-100px;
+				padding-top:18px;
+				padding-bottom:16px;
+				
+}	
+#newrecipe{
+				border: medium black solid;
+				font-family: Poor Richard;
+				position:relative;
+				margin-right:300px;
+				margin-top:10px;
+				margin-left:300px;
+}

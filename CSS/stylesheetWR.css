@@ -1,0 +1,51 @@
+﻿#wrapper{
+				width:960px;
+				margin:0 auto;
+				position:relative;
+}
+a:link{
+				text-decoration:none;
+				color:#000033;
+}
+
+a:visited{
+				color:#000033;
+}
+#technicals ul{
+				list-style:none;
+}
+#technicals li{
+				display:inline;
+				padding-right:25px;
+}
+#topline{
+				position:relative;
+				margin-left:500px;
+}
+#logo{
+position:relative;
+margin-top:25px;
+font-size:xx-large;
+}
+#navbar a:hover{
+				font-size:larger;
+}
+#navbar li{
+				display:inline;
+				padding-right:70px;
+				padding-left:5px;
+				font-size:x-large;
+}
+
+#navbar{
+				margin-left:0px;
+				margin-right:40px;
+				position:relative;
+				margin-top:20px;
+				border-top:medium black solid;
+				border-bottom:medium black solid;
+}#newrecipe{
+				position:relative;
+
+}
+
